@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGO GYM - Carb Cycling Diet Program</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #ff0000;
+            --secondary-color: #2d2d2d;
+            --accent-color: #404040;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: #1a1a1a;
+            text-align: center;
+        }
+
+        .section-header {
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        .meal-table {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto 2rem auto;
+            border-collapse: separate;
+            border-spacing: 0;
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .meal-table th {
+            background: linear-gradient(45deg, #2d2d2d, var(--primary-color));
+            color: white;
+            font-weight: bold;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .meal-table td {
+            padding: 12px;
+            border-bottom: 1px solid var(--accent-color);
+            text-align: left;
+        }
+
+        .meal-table tr:hover {
+            background-color: var(--accent-color);
+        }
+
+        section {
+            background-color: var(--secondary-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 0 auto 2rem auto;
+            max-width: 1200px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .macro-card {
+            background-color: #1a1a1a;
+            border: 1px solid var(--primary-color);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="py-12">
+        <h1 class="text-6xl font-bold mb-4 text-red-600">Carb Cycling Diet Program</h1>
+        <p class="text-xl">Optimize Muscle Growth and Fat Loss</p>
+    </header>
+
+    <!-- Diet Overview -->
+    <section>
+        <h2 class="text-2xl font-bold mb-4 section-header">Diet Plan Overview</h2>
+        <p class="mb-4">This comprehensive carb cycling diet plan is designed to support muscle growth and fat loss, with alternating normal-carb and zero-carb days tailored to your training split.</p>
+        
+        <!-- Daily Macros Summary -->
+        <div class="grid md:grid-cols-4 gap-4 mt-6">
+            <div class="macro-card">
+                <h3 class="text-red-500 font-bold mb-2">Normal-Carb Days</h3>
+                <p class="text-2xl font-bold">2,400-2,600</p>
+                <p class="text-sm text-gray-400">kcal</p>
+            </div>
+            <div class="macro-card">
+                <h3 class="text-red-500 font-bold mb-2">Zero-Carb Days</h3>
+                <p class="text-2xl font-bold">2,000-2,200</p>
+                <p class="text-sm text-gray-400">kcal</p>
+            </div>
+            <div class="macro-card">
+                <h3 class="text-red-500 font-bold mb-2">Protein</h3>
+                <p class="text-2xl font-bold">150-175g</p>
+                <p class="text-sm text-gray-400">Daily</p>
+            </div>
+            <div class="macro-card">
+                <h3 class="text-red-500 font-bold mb-2">Carb Cycling</h3>
+                <p class="text-2xl font-bold">2/3</p>
+                <p class="text-sm text-gray-400">Days Variation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meal Plan for Normal-Carb Day -->
+    <section>
+        <h2 class="text-2xl font-bold mb-4 section-header">Day 1: Normal-Carb Day (Chest & Triceps)</h2>
+        <table class="meal-table">
+            <thead>
+                <tr>
+                    <th>Meal & Time</th>
+                    <th>Foods</th>
+                    <th>Macros</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-gray-300 font-bold">Breakfast<br>(9:00 AM)</td>
+                    <td class="text-gray-300">
+                        • 4 whole eggs + 2 egg whites<br>
+                        • 60g oats with 200ml skimmed milk<br>
+                        • 1 medium banana<br>
+                        • 1 tbsp peanut butter
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 550 kcal<br>
+                        Protein: 35g<br>
+                        Carbs: 50g<br>
+                        Fats: 20g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Snack<br>(12:00 PM)</td>
+                    <td class="text-gray-300">
+                        • 1 scoop whey protein with 250ml water<br>
+                        • 10 almonds or 5 walnuts
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 200 kcal<br>
+                        Protein: 25g<br>
+                        Carbs: 5g<br>
+                        Fats: 8g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Lunch<br>(3:00 PM)</td>
+                    <td class="text-gray-300">
+                        • 150g grilled chicken breast<br>
+                        • 200g cooked white or brown rice<br>
+                        • 150g steamed vegetables<br>
+                        • 1 tbsp olive oil
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 550 kcal<br>
+                        Protein: 45g<br>
+                        Carbs: 50g<br>
+                        Fats: 10g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Pre-Workout<br>(5:30 PM)</td>
+                    <td class="text-gray-300">
+                        • 1 medium sweet potato (150g)<br>
+                        • 100g low-fat cottage cheese
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 300 kcal<br>
+                        Protein: 15g<br>
+                        Carbs: 40g<br>
+                        Fats: 5g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Post-Workout<br>(7:30 PM)</td>
+                    <td class="text-gray-300">
+                        • 1 scoop whey protein with 250ml water<br>
+                        • 1 tsp honey
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 150 kcal<br>
+                        Protein: 25g<br>
+                        Carbs: 10g<br>
+                        Fats: 0g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Dinner<br>(9:00 PM)</td>
+                    <td class="text-gray-300">
+                        • 150g grilled salmon or lean beef<br>
+                        • 150g mixed salad<br>
+                        • 100g boiled potatoes or quinoa<br>
+                        • 1 tsp olive oil
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 500 kcal<br>
+                        Protein: 40g<br>
+                        Carbs: 30g<br>
+                        Fats: 15g
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Zero-Carb Day Plan -->
+    <section>
+        <h2 class="text-2xl font-bold mb-4 section-header">Day 2: Zero-Carb Day (Back & Biceps)</h2>
+        <table class="meal-table">
+            <thead>
+                <tr>
+                    <th>Meal & Time</th>
+                    <th>Foods</th>
+                    <th>Macros</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-gray-300 font-bold">Breakfast<br>(9:00 AM)</td>
+                    <td class="text-gray-300">
+                        • 4 whole eggs + 2 egg whites<br>
+                        • 50g avocado
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 350 kcal<br>
+                        Protein: 30g<br>
+                        Carbs: 3g<br>
+                        Fats: 25g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Snack<br>(12:00 PM)</td>
+                    <td class="text-gray-300">
+                        • 1 scoop whey protein with 250ml water<br>
+                        • 10 almonds or 5 walnuts
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 200 kcal<br>
+                        Protein: 25g<br>
+                        Carbs: 2g<br>
+                        Fats: 7g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Lunch<br>(3:00 PM)</td>
+                    <td class="text-gray-300">
+                        • 150g grilled chicken breast<br>
+                        • 150g steamed vegetables<br>
+                        • 1 tbsp olive oil
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 400 kcal<br>
+                        Protein: 40g<br>
+                        Carbs: 5g<br>
+                        Fats: 15g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Pre-Workout<br>(5:30 PM)</td>
+                    <td class="text-gray-300">
+                        • 100g cottage cheese
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 100 kcal<br>
+                        Protein: 12g<br>
+                        Carbs: 3g<br>
+                        Fats: 4g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Post-Workout<br>(7:30 PM)</td>
+                    <td class="text-gray-300">
+                        • 1 scoop whey protein with 250ml water
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 120 kcal<br>
+                        Protein: 25g<br>
+                        Carbs: 1g<br>
+                        Fats: 1g
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-gray-300 font-bold">Dinner<br>(9:00 PM)</td>
+                    <td class="text-gray-300">
+                        • 150g grilled salmon or lean beef<br>
+                        • 150g mixed salad with olive oil dressing
+                    </td>
+                    <td class="text-gray-300">
+                        Calories: 400 kcal<br>
+                        Protein: 35g<br>
+                        Carbs: 5g<br>
+                        Fats: 15g
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Supplements and Hydration -->
+    <section>
+        <h2 class="text-2xl font-bold mb-4 section-header">Supplements & Hydration</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-black p-6 rounded-lg border border-red-800">
+                <h3 class="text-xl text-red-500 mb-4">Daily Supplements</h3>
+                <ul class="tips-list text-gray-300 text-left">
+                    <li>• Whey Protein: 2 servings daily</li>
+                    <li>• Creatine: 5g daily (post-workout)</li>
+                    <li>• Optional: Omega-3s, Multivitamins</li>
+                </ul>
+            </div>
+            <div class="bg-black p-6 rounded-lg border border-red-800">
+                <h3 class="text-xl text-red-500 mb-4">Hydration Guidelines</h3>
+                <ul class="tips-list text-gray-300 text-left">
+                    <li>• Water Intake: 2.5–3 liters daily</li>
+                    <li>• Monitor urine color (pale yellow ideal)</li>
+                    <li>• Increase water during workouts</li>
+                    <li>• Limit caffeine after 4 PM</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Tips -->
+    <section>
+        <h2 class="text-2xl font-bold mb-4 section-header">Key Nutritional Strategies</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-black p-6 rounded-lg border border-red-800">
+                <h3 class="text-xl text-red-500 mb-4">Meal Preparation Guidelines</h3>
+                <ul class="tips-list text-gray-300 text-left">
+                    <li>• Prep meals in advance for 3-4 days</li>
+                    <li>• Invest in a reliable food scale for precise portioning</li>
+                    <li>• Use airtight containers for meal storage</li>
+                    <li>• Keep protein sources and vegetables readily available</li>
+                </ul>
+            </div>
+            <div class="bg-black p-6 rounded-lg border border-red-800">
+                <h3 class="text-xl text-red-500 mb-4">Performance Optimization</h3>
+                <ul class="tips-list text-gray-300 text-left">
+                    <li>• Maintain consistent sleep (7-8 hours nightly)</li>
+                    <li>• Refeed meal every two weeks to replenish glycogen</li>
+                    <li>• Adjust portions based on progress and body response</li>
+                    <li>• Stay consistent with meal timing and macronutrients</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carb Cycling Explanation -->
+    <section>
+        <h2 class="text-2xl font-bold mb-4 section-header">Understanding Carb Cycling</h2>
+        <div class="bg-black p-6 rounded-lg border border-red-800">
+            <p class="text-gray-300 mb-4">
+                Carb cycling is a strategic dietary approach that alternates between high and low carbohydrate intake. This method optimizes metabolism, supports muscle growth, and enhances fat loss by manipulating insulin sensitivity and metabolic flexibility.
+            </p>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-gray-900 p-4 rounded">
+                    <h3 class="text-red-500 font-bold mb-2">Normal-Carb Days</h3>
+                    <p class="text-gray-300">Provide energy for intense training, support muscle glycogen replenishment, and boost metabolism.</p>
+                </div>
+                <div class="bg-gray-900 p-4 rounded">
+                    <h3 class="text-red-500 font-bold mb-2">Zero-Carb Days</h3>
+                    <p class="text-gray-300">Promote fat burning, improve insulin sensitivity, and allow metabolic reset between high-carb periods.</p>
+                </div>
+                <div class="bg-gray-900 p-4 rounded">
+                    <h3 class="text-red-500 font-bold mb-2">Key Benefits</h3>
+                    <p class="text-gray-300">Enhanced body composition, improved nutrient partitioning, and sustained metabolic efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8 px-6 border-t border-red-800">
+        <div class="container mx-auto grid md:grid-cols-3 gap-8">
+            <div class="text-center">
+                <h3 class="text-xl font-bold mb-4 text-red-500 flex items-center justify-center">
+                    <i class="bi bi-gear-fill text-white mr-2"></i>EGO GYM
+                </h3>
+                <p>Precision Nutrition. Optimal Performance.</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-xl font-bold mb-4 text-red-500">Connect With Us</h3>
+                <div class="space-y-4">
+                    <a href="https://www.instagram.com/egoo.gym" target="_blank" class="flex items-center justify-center hover:text-red-500 transition-colors">
+                        <i class="bi bi-instagram text-2xl mr-3"></i> Follow on Instagram
+                    </a>
+                    <a href="https://bit.ly/egogym-location" target="_blank" class="flex items-center justify-center hover:text-red-500 transition-colors">
+                        <i class="bi bi-geo-alt-fill text-2xl mr-3"></i> Gym Location
+                    </a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUJ0jFUxLIvjjVWFcNrHg9fl45bx3Fc3_0ry52y2lOPuHa_w/viewform?usp=dialog" target="_blank" class="flex items-center justify-center hover:text-red-500 transition-colors">
+                        <i class="bi bi-chat-dots-fill text-2xl mr-3"></i> Feedback Form
+                    </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <h3 class="text-xl font-bold mb-4 text-red-500 flex items-center justify-center">
+                    <i class="bi bi-envelope-fill text-white mr-2"></i> Contact Information
+                </h3>
+                <a href="mailto:contact@egogym.com" class="flex items-center justify-center hover:text-red-500 transition-colors mb-4">
+                    <i class="bi bi-envelope text-2xl mr-3"></i> contact@egogym.com
+                </a>
+                <p class="text-gray-400">Personalized Nutrition Consulting Available</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
