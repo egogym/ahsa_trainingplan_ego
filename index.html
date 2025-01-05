@@ -87,6 +87,72 @@
             margin: 0 auto;
             padding: 0 1rem;
         }
+         /* Minimal Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            body {
+                min-width: 320px; /* Ensure minimum width */
+                overflow-x: auto; /* Allow horizontal scrolling if needed */
+            }
+
+            .container {
+                width: 100%;
+                padding: 0 10px;
+            }
+
+            /* Prevent content from becoming too compressed */
+            .workout-table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .workout-table table {
+                width: 1000px; /* Wider than mobile screen */
+            }
+
+            /* Ensure full-width sections */
+            section {
+                width: 100%;
+                padding: 10px;
+                margin: 0;
+            }
+
+            /* Slight typography adjustments */
+            h1 {
+                font-size: 2.5rem !important;
+            }
+
+            .text-xl {
+                font-size: 1rem;
+            }
+
+            .text-2xl {
+                font-size: 1.5rem;
+            }
+
+            /* Ensure footer remains readable */
+            footer .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        /* For very small screens */
+        @media screen and (max-width: 480px) {
+            footer .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .workout-table table {
+                width: 800px; /* Slightly narrower for smaller screens */
+            }
+        }
+
+        /* Ensure horizontal scrolling doesn't create unwanted white space */
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
     </style>
 </head>
 <body>
